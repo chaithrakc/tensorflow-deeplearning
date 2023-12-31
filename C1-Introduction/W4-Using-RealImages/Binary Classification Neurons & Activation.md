@@ -1,0 +1,3 @@
+# Binary Classification: Neurons & Activation
+
+**Binary Classification**: In multiclass classification, the output layer can be configured with one neuron per class when employing the **softmax** activation function. However, for binary class classification using the **sigmoid** activation function, only a single neuron is needed to represent two classes. This is due to the fact that in the sigmoid function, one class tends toward 0 while the other class tends toward 1. While it's possible to use the **softmax** activation in binary classification, it requires two neurons in that scenario.
